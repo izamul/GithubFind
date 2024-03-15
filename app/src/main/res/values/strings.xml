@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GithubUserFirst</string>
+    <string name="searchbar_hint">Masukkan user yang dicari</string>
+    <string name="title_activity_splash_screen">SplashScreenActivity</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title_activity_detail_user">DetailUserActivity</string>
+    <string name="following">Following</string>
+    <string name="followers">Followers</string>
+</resources>

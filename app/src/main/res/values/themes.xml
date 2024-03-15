@@ -1,0 +1,37 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.GithubFind" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@color/blackPrimary</item>
+        <item name="colorPrimaryVariant">@color/blackTersier</item>
+        <item name="colorOnPrimary">@color/whiteTextPrimary</item>
+
+        <item name="colorSecondary">@color/blackSecondary</item>
+        <item name="colorOnSecondary">@color/whiteTextPrimary</item>
+
+        <item name="android:textColor">@color/whiteTextPrimary</item>
+        <item name="android:textColorHint">#80E6EDF3</item>
+
+    </style>
+
+    <style name="Theme.GithubFind" parent="Base.Theme.GithubFind" />
+
+    <style name="AppSearchView" parent="Widget.AppCompat.SearchView">
+        <item name="android:textSize">16sp</item>
+        <item name="android:editTextColor">@color/whiteTextPrimary</item>
+    </style>
+
+    <style name="SpecificCornerRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopLeft">8dp</item>
+        <item name="cornerSizeTopRight">8dp</item>
+        <item name="cornerSizeBottomRight">8dp</item>
+        <item name="cornerSizeBottomLeft">8dp</item>
+    </style>
+
+    <style name="ShapeAppearanceOverlay.MaterialComponents.CircularImageView" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+</resources>
